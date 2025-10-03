@@ -1,0 +1,70 @@
+# Dataset files (too large for GitHub)
+data/
+*.csv
+*.pcap
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch model checkpoints
+checkpoints/*.pt
+checkpoints/*.pth
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Experiment logs (keep structure but not all logs)
+experiments/*.json
+!experiments/README.md
+
+# Large presentation files
+*.pdf
+
+# Temporary files
+*.tmp
+*.temp
+*.log
