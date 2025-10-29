@@ -1,18 +1,18 @@
 # Robust AI Threat Detection System
 *Advanced Cybersecurity Research Project - COSC 6280, Fall 2025*
 
-## 🎯 Overview
+## Overview
 This project provides a comprehensive evaluation framework for adversarial robustness of AI-based threat detection systems. It implements state-of-the-art defense mechanisms and follows ML best practices to bridge academic research with practical cybersecurity applications.
 
 **Key Achievement**: Demonstrates **78.7% improvement** in adversarial robustness through advanced defense mechanisms while maintaining 97%+ clean accuracy.
 
-## 📊 Project Highlights
-- **🛡️ Advanced Defense Mechanisms**: Adversarial training, ensemble methods, feature squeezing
-- **⚔️ Comprehensive Attack Evaluation**: FGSM and PGD adversarial attacks
-- **📈 ML Best Practices**: Early stopping, validation monitoring, experiment tracking
-- **🔬 Research-Grade Quality**: Publication-ready implementation with rigorous evaluation
+## Project Highlights
+- ** Advanced Defense Mechanisms**: Adversarial training, ensemble methods, feature squeezing
+- ** Comprehensive Attack Evaluation**: FGSM and PGD adversarial attacks
+- ** ML Best Practices**: Early stopping, validation monitoring, experiment tracking
+- ** Research-Grade Quality**: Publication-ready implementation with rigorous evaluation
 
-## 🏗️ Project Structure
+## Project Structure
 ```
 robust-ai-threat-detection/
 ├── cicids_mlp_adv.py              # Main implementation with ML best practices
@@ -28,40 +28,40 @@ robust-ai-threat-detection/
 └── Adversarial Machine Learning Proposal Presentation.pdf
 ```
 
-## 🚀 Features & Capabilities
+##  Features & Capabilities
 
-### 🎯 **Threat Detection Models**
+###  **Threat Detection Models**
 - **Intrusion Detection System (IDS)** using CICIDS2017 dataset (2.8M+ network flows)
 - **Multi-layer Perceptron (MLP)** with configurable architecture
 - **Binary classification**: Distinguishes malicious vs. benign network traffic
 - **97%+ baseline accuracy** with advanced ML training techniques
 
-### ⚔️ **Adversarial Attack Implementation**
+### **Adversarial Attack Implementation**
 - **FGSM (Fast Gradient Sign Method)**: Single-step gradient-based attack
 - **PGD (Projected Gradient Descent)**: Multi-step iterative attack with 8 steps
 - **Configurable attack parameters**: Epsilon values, step sizes, iterations
 - **Comprehensive vulnerability assessment** with attack success rate metrics
 
-### 🛡️ **Advanced Defense Mechanisms**
+### **Advanced Defense Mechanisms**
 - **Adversarial Training**: Training with adversarial examples (+78.7% robustness)
 - **Ensemble Defense**: Multi-model voting system with diverse architectures
 - **Feature Squeezing**: Input preprocessing defense (6-bit depth reduction)
 - **Comparative effectiveness analysis** across all defense strategies
 
-### 📊 **ML Best Practices Implementation**
-- **✅ Proper Data Management**: Train/Validation/Test splits (70/10/20) with stratification
-- **✅ Advanced Training**: Early stopping, L2 regularization, learning rate scheduling
-- **✅ Model Management**: Checkpointing, versioning, and state preservation
-- **✅ Experiment Tracking**: JSON-based logging with full configuration capture
-- **✅ Reproducibility**: Multi-framework seed management and environment specification
+### **ML Best Practices Implementation**
+- ** Proper Data Management**: Train/Validation/Test splits (70/10/20) with stratification
+- ** Advanced Training**: Early stopping, L2 regularization, learning rate scheduling
+- ** Model Management**: Checkpointing, versioning, and state preservation
+- ** Experiment Tracking**: JSON-based logging with full configuration capture
+- ** Reproducibility**: Multi-framework seed management and environment specification
 
-### 📈 **Comprehensive Evaluation Framework**
+###  **Comprehensive Evaluation Framework**
 - **8+ Evaluation Metrics**: Accuracy, Precision, Recall, F1, Specificity, FNR, FPR
 - **Attack Success Rate**: Specialized metrics for adversarial evaluation
 - **Confusion Matrices**: Detailed classification analysis
 - **Defense Effectiveness**: Quantitative robustness improvement measurements
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - **Python 3.8+** (Tested on Python 3.13)
@@ -110,7 +110,7 @@ custom_config = Config(
 )
 ```
 
-## 🎮 Usage & Examples
+##  Usage & Examples
 
 ### Basic Execution with Best Practices
 ```bash
@@ -201,14 +201,14 @@ RESULTS SAVED - Ready for further analysis
 ==================================================
 ```
 
-## 🔬 Key Research Findings
+##  Key Research Findings
 
-### 🎯 **Vulnerability Assessment Results**
+###  **Vulnerability Assessment Results**
 - **Baseline Model Vulnerability**: Clean accuracy drops from 97.63% to 86.54% (FGSM) and 85.38% (PGD)
 - **Attack Success Rate**: Up to 14.62% of samples successfully fooled by adversarial perturbations
 - **Critical Insight**: Even high-performing cybersecurity models are vulnerable to sophisticated attacks
 
-### 🛡️ **Defense Mechanism Effectiveness**
+###  **Defense Mechanism Effectiveness**
 
 #### **1. Adversarial Training (Most Effective)**
 - **Robustness Improvement**: +78.7% average improvement against attacks
@@ -232,7 +232,7 @@ RESULTS SAVED - Ready for further analysis
 - **Evaluation Rigor**: Proper train/validation/test splits with stratification
 - **Reproducibility**: All experiments use fixed random seeds for consistent results
 
-### 🎓 **Academic & Practical Implications**
+###  **Academic & Practical Implications**
 
 #### **For Cybersecurity Research:**
 - Demonstrates urgent need for adversarial robustness in security systems
@@ -244,9 +244,9 @@ RESULTS SAVED - Ready for further analysis
 - Multi-layered defense strategies recommended
 - Regular adversarial testing essential for security validation
 
-## ⚙️ Configuration & Customization
+##  Configuration & Customization
 
-### 🎛️ **Core Model Parameters**
+###  **Core Model Parameters**
 ```python
 # Model Architecture
 hidden_dims = [128, 64]          # Neural network layer sizes
@@ -260,7 +260,7 @@ batch_size = 256                 # Training batch size
 patience = 7                     # Early stopping patience
 ```
 
-### ⚔️ **Attack Configuration**
+###  **Attack Configuration**
 ```python
 # FGSM Attack
 eps_fgsm = 0.05                 # Perturbation strength (L∞ norm)
@@ -271,7 +271,7 @@ pgd_steps = 8                   # Number of iterative steps
 pgd_step_size = 0.01           # Step size per iteration
 ```
 
-### 🎯 **Data Processing Options**
+###  **Data Processing Options**
 ```python
 # Data Management
 test_size = 0.2                 # Test set proportion
@@ -280,86 +280,86 @@ sample_frac = 0.1               # Dataset sampling fraction
 random_seed = 42                # Reproducibility seed
 ```
 
-### 🔧 **Advanced Features**
+###  **Advanced Features**
 - **Automatic Device Selection**: CUDA/CPU detection
 - **Early Stopping**: Prevents overfitting automatically
 - **Learning Rate Scheduling**: Adaptive rate reduction
 - **Model Checkpointing**: Automatic best model saving
 - **Experiment Logging**: JSON-based result tracking
 
-## 🌟 Research Applications & Impact
+##  Research Applications & Impact
 
-### 🎓 **Academic Research Applications**
+###  **Academic Research Applications**
 - **Adversarial ML Benchmark**: Standard evaluation framework for cybersecurity models
 - **Defense Mechanism Comparison**: Quantitative analysis of robustness techniques
 - **Reproducible Research**: Complete experimental setup for replication studies
 - **Educational Tool**: Comprehensive example of adversarial ML in cybersecurity
 
-### 🏢 **Industry & Practical Applications**
+###  **Industry & Practical Applications**
 - **Red-Team Testing**: Validate AI security systems against sophisticated attacks
 - **Production IDS Enhancement**: Implement adversarial training for robust deployment  
 - **Security Assessment**: Quantify vulnerabilities in existing ML-based security tools
 - **Compliance & Standards**: Support for AI security auditing and certification
 
-### 🌍 **Broader Societal Impact**
+###  **Broader Societal Impact**
 - **Critical Infrastructure Protection**: Enhanced security for power grids, hospitals, financial systems
 - **Trustworthy AI**: Contributes to safer AI deployment in security-critical applications
 - **Cybersecurity Workforce**: Training tool for next-generation security professionals
 - **Policy & Regulation**: Evidence base for AI security standards and guidelines
 
-### 📈 **Performance & Scalability**
+###  **Performance & Scalability**
 - **Computational Efficiency**: Optimized for GPU acceleration and large-scale datasets
 - **Memory Management**: Efficient data loading for datasets with millions of samples
 - **Production Ready**: Error handling and logging suitable for enterprise deployment
 - **Extensible Architecture**: Modular design for easy addition of new attacks/defenses
 
-## 🚀 Future Research Directions
+##  Future Research Directions
 
-### 📊 **Dataset Expansion** 
+### **Dataset Expansion** 
 - **EMBER Dataset**: Windows malware detection (1M+ PE files)
 - **PhishTank Dataset**: Phishing URL detection and analysis
 - **NSL-KDD**: Alternative network intrusion benchmark
 - **IoT Traffic**: Smart device security and anomaly detection
 
-### 🔬 **Advanced Attack Methods**
+###  **Advanced Attack Methods**
 - **DeepFool**: Semantic adversarial perturbations with minimal distortion
 - **Carlini & Wagner (C&W)**: Optimization-based attacks with confidence scoring
 - **Black-box Attacks**: Query-efficient methods for realistic threat modeling
 - **Physical Attacks**: Real-world perturbations in network traffic
 
-### 🛡️ **Next-Generation Defenses**
+###  **Next-Generation Defenses**
 - **Certified Defenses**: Provable robustness guarantees with mathematical bounds
 - **Defensive Distillation**: Knowledge transfer for improved robustness
 - **Detection-Based Defense**: Adversarial example detection and rejection
 - **Adaptive Defenses**: Dynamic defense strategies against evolving attacks
 
-### 🎯 **Domain-Specific Extensions**
+###  **Domain-Specific Extensions**
 - **Multi-class Classification**: Extended threat taxonomy (DDoS, malware families, etc.)
 - **Time-Series Analysis**: Sequential attack detection in network flows
 - **Federated Learning**: Distributed adversarial training across organizations
 - **Real-time Systems**: Low-latency defense for production environments
 
-## 📚 Additional Resources
+##  Additional Resources
 
-### 🔗 **Related Research Papers**
+###  **Related Research Papers**
 - Goodfellow et al. (2014): "Explaining and Harnessing Adversarial Examples"
 - Madry et al. (2017): "Towards Deep Learning Models Resistant to Adversarial Attacks" 
 - Carlini & Wagner (2017): "Towards Evaluating the Robustness of Neural Networks"
 - Grosse et al. (2017): "On the (Statistical) Detection of Adversarial Examples"
 
-### 🎓 **Educational Materials**
+###  **Educational Materials**
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 - [MITRE ATT&CK Framework](https://attack.mitre.org/)
 - [Adversarial ML Threat Matrix](https://github.com/mitre/advmlthreatmatrix)
 
-### 🛠️ **Tools & Frameworks**
+###  **Tools & Frameworks**
 - [CleverHans](https://github.com/cleverhans-lab/cleverhans): Adversarial example library
 - [ART](https://github.com/Trusted-AI/adversarial-robustness-toolbox): IBM's robustness toolkit
 - [DEEPSEC](https://github.com/kleincup/DEEPSEC): Adversarial attack platform
 
-## 🤝 Contributing & Development
+##  Contributing & Development
 
-### 🔧 **Development Setup**
+###  **Development Setup**
 1. **Fork the repository** and clone your fork
 2. **Create a virtual environment**:
 ```bash
@@ -376,30 +376,30 @@ pip install black flake8 pytest  # Development tools
 pytest tests/
 ```
 
-### 📝 **Contribution Guidelines**
+###  **Contribution Guidelines**
 1. **Code Style**: Follow PEP 8 standards with Black formatting
 2. **Documentation**: Update README and docstrings for new features
 3. **Testing**: Include unit tests for new functionality
 4. **Experiments**: Log all experimental changes in the experiments/ directory
 
-### 🌟 **Areas for Contribution**
+###  **Areas for Contribution**
 - **New Attack Methods**: Implementation of additional adversarial attacks
 - **Defense Mechanisms**: Novel robustness improvement techniques  
 - **Dataset Support**: Integration with new cybersecurity datasets
 - **Performance Optimization**: GPU acceleration and memory efficiency
 - **Visualization**: Results plotting and analysis tools
 
-### 🐛 **Bug Reports & Feature Requests**
+###  **Bug Reports & Feature Requests**
 - Use GitHub Issues for bug reports and feature requests
 - Include system information, Python version, and complete error traces
 - Provide minimal reproducible examples when possible
 
-## 📄 License & Citation
+##  License & Citation
 
-### 📜 **License**
+###  **License**
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-### 📖 **Citation**
+###  **Citation**
 If you use this code in your research, please cite:
 
 ```bibtex
@@ -414,38 +414,38 @@ If you use this code in your research, please cite:
 }
 ```
 
-### 🏆 **Acknowledgments**
+###  **Acknowledgments**
 - **Prof. Keyang Yu** - Course instructor and research guidance
 - **CICIDS2017 Team** - Dataset creation and curation  
 - **PyTorch Community** - Deep learning framework and ecosystem
 - **Adversarial ML Research Community** - Foundational research and methodologies
 
-## 📞 Contact & Support
+##  Contact & Support
 
-### 👨‍🎓 **Author Information**
+###  **Author Information**
 - **Name**: James Vashiri
 - **Institution**: Marquette University  
 - **Course**: COSC 6280 - Advanced Cybersecurity
 - **Semester**: Fall 2025
 - **Instructor**: Prof. Keyang Yu
 
-### 💬 **Support Channels**
+###  **Support Channels**
 - **GitHub Issues**: Technical problems and feature requests
 - **Documentation**: Complete guides in `ML_BEST_PRACTICES.md`
 - **Code Comments**: Comprehensive inline documentation
 - **Experiment Logs**: Detailed results in `experiments/` directory
 
-### 🎯 **Project Goals Achievement**
-✅ **Research Excellence**: Publication-ready implementation with rigorous methodology  
-✅ **Educational Value**: Comprehensive example of adversarial ML in cybersecurity  
-✅ **Practical Impact**: Production-ready tools for security assessment  
-✅ **Reproducibility**: Complete experimental framework with detailed documentation  
+###  **Project Goals Achievement**
+**Research Excellence**: Publication-ready implementation with rigorous methodology  
+**Educational Value**: Comprehensive example of adversarial ML in cybersecurity  
+**Practical Impact**: Production-ready tools for security assessment  
+**Reproducibility**: Complete experimental framework with detailed documentation  
 
 ---
 
-**⚠️ Disclaimer**: This tool is designed for educational and research purposes only. Use responsibly and in accordance with applicable laws, regulations, and institutional policies. The authors are not responsible for any misuse of this software.
+** Disclaimer**: This tool is designed for educational and research purposes only. Use responsibly and in accordance with applicable laws, regulations, and institutional policies. The authors are not responsible for any misuse of this software.
 
-**🔒 Security Notice**: This implementation demonstrates vulnerabilities in AI systems for educational purposes. In production environments, implement appropriate security measures and conduct regular adversarial testing.
+** Security Notice**: This implementation demonstrates vulnerabilities in AI systems for educational purposes. In production environments, implement appropriate security measures and conduct regular adversarial testing.
 
 ---
 
