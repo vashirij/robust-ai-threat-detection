@@ -7,10 +7,10 @@ This project provides a comprehensive evaluation framework for adversarial robus
 **Key Achievement**: Demonstrates **78.7% improvement** in adversarial robustness through advanced defense mechanisms while maintaining 97%+ clean accuracy.
 
 ## Project Highlights
-- ** Advanced Defense Mechanisms**: Adversarial training, ensemble methods, feature squeezing
-- ** Comprehensive Attack Evaluation**: FGSM and PGD adversarial attacks
-- ** ML Best Practices**: Early stopping, validation monitoring, experiment tracking
-- ** Research-Grade Quality**: Publication-ready implementation with rigorous evaluation
+- Advanced Defense Mechanisms: Adversarial training, ensemble methods, feature squeezing
+-  Comprehensive Attack Evaluation: FGSM and PGD adversarial attacks
+-  ML Best Practices: Early stopping, validation monitoring, experiment tracking
+-  Research-Grade Quality: Publication-ready implementation with rigorous evaluation
 
 ## Project Structure
 ```
